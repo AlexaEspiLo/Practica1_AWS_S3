@@ -8,7 +8,7 @@ from botocore.exceptions import ClientError, BotoCoreError
 # 1. Configuración del cliente AWS S3
 s3_client = boto3.client("s3", region_name="us-east-1")
 
-BUCKET_NAME = "practica1-aws-alexa-2026python"
+BUCKET_NAME = "practica1-aws-alexa-2026"
 
 
 
