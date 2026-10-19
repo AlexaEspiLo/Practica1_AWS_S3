@@ -1,0 +1,27 @@
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Credenciales y claves
+.env
+.env.*
+!.env.example
+.aws/
+credentials
+*.pem
+*.key
+
+# Configuración local
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
